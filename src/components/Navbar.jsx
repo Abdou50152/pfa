@@ -27,12 +27,12 @@ const Navbar = () => {
 
           {/* Liens Enfant et Maman à droite + icône menu */}
           <div className="flex items-center gap-4">
-            <Link to="/" className="font-bold hover:text-yellow-200">
+            {/* <Link to="/" className="font-bold hover:text-yellow-200">
               <span role="img" aria-label="enfant" className="mr-1">👶</span> Enfant
             </Link>
             <Link to="/parent" className="font-bold hover:text-yellow-200">
               <span role="img" aria-label="maman" className="mr-1">👩</span> Maman
-            </Link>
+            </Link> */}
 
             {/* Bouton hamburger pour le menu */}
             <button 
