@@ -1,0 +1,29 @@
+# Chemins relatifs vers vos dossiers d'images
+train: train/images
+val: valid/images
+
+# Nombre de classes
+nc: 10
+
+# Noms des classes
+names:
+  - peluche
+  - lego
+  - voiture
+  - poupée
+  - puzzle
+  - livre
+  - balle
+  - figurine
+  - instrument
+  - jeu-de-société
+  - casse-tête
+  - construction
+  - déguisement
+  - meuble
+  - musique
+  - sport
+  - train
+  - vélo
+  - pionnier
+  - robot

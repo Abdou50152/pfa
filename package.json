@@ -1,0 +1,60 @@
+{
+  "name": "my-toy-helper-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow-models/handpose": "^0.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "animejs": "^4.0.2",
+    "axios": "^1.9.0",
+    "framer-motion": "^12.18.1",
+    "lucide-react": "^0.519.0",
+    "opencv.js": "^1.2.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-dom-confetti": "^0.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.3.3"
+  }
+}
